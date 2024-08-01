@@ -1,6 +1,6 @@
 # Company Website
 
-[Link to this project](https://company-website-1x30hc6vh-julianas-projects-4a14357a.vercel.app/)
+[Link to this project](https://company-website-two-peach.vercel.app/)
 
 ## Technologies used:
 
