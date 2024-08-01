@@ -45,7 +45,7 @@ export default function Testimonial() {
 						alt=""
 						className="rounded-full w-60 hover:opacity-75 transition duration-300"
 					/>
-					<div className="shadow-bg rounded-lg bg-white p-8 text-center h-full">
+					<div className="shadow-bg rounded-lg bg-white p-8 text-center h-full dark:bg-black">
 						<span className="flex justify-center mb-2 md:text-sm">
 							{[...Array(5)].map((_, index) => (
 								<MdStar key={index} className="text-primary text-xl" />
