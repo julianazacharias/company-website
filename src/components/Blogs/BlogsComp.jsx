@@ -8,27 +8,27 @@ const BlogsData = [
 	{
 		id: 1,
 		image: Img1,
-		title: "Realtime analytics",
+		title: "All the kinds of businesses",
 		description:
-			"“The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be. “The results have been incredible.",
+			"“Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Suco de cevadiss deixa as pessoas mais interessantis. Quem num gosta di mé, boa gentis num é.",
 		author: "Someone",
 		date: "April 22, 2022",
 	},
 	{
 		id: 2,
 		image: Img2,
-		title: "Realtime analytics",
+		title: "Making partnerships",
 		description:
-			"“The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be. “The results have been incredible. ",
+			"“Sapien in monti palavris qui num significa nadis i pareci latim. Pellentesque nec nulla ligula. Donec gravida turpis a vulputate ultricies. Interagi no mé, cursus quis, vehicula ac nisi. Mé faiz elementum girarzis, nisi eros vermeio.",
 		author: "Someone",
 		date: "April 22, 2022",
 	},
 	{
 		id: 3,
 		image: Img3,
-		title: "Realtime analytics",
+		title: "Build your empire",
 		description:
-			"“The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be. “The results have been incredible. ",
+			"“Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Delegadis gente finis, bibendum egestas augue arcu ut est. Per aumento de cachacis, eu reclamis.",
 		author: "Someone",
 		date: "April 22, 2022",
 	},

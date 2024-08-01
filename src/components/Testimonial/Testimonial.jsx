@@ -43,10 +43,10 @@ export default function Testimonial() {
 					<img
 						src={image}
 						alt=""
-						className="rounded-full w-56 h-56 hover:opacity-75 transition duration-300"
+						className="rounded-full w-60 hover:opacity-75 transition duration-300"
 					/>
 					<div className="shadow-bg rounded-lg bg-white p-8 text-center h-full">
-						<span className="flex justify-center mb-2">
+						<span className="flex justify-center mb-2 md:text-sm">
 							{[...Array(5)].map((_, index) => (
 								<MdStar key={index} className="text-primary text-xl" />
 							))}
@@ -90,17 +90,17 @@ export default function Testimonial() {
 							>
 								<Card
 									image={person1}
-									name="Lisa Suzuki"
+									name="Shahina Mugabi"
 									position="Chief Financial Officer (CFO)"
 								/>
 								<Card
 									image={person2}
-									name="Shahina Mugabi"
+									name="John Smith"
 									position="Founder and CEO"
 								/>
 								<Card
 									image={person3}
-									name="Hamza Al-Mansoori"
+									name="Sarah Jones"
 									position="Chief Technology Officer (CTO)"
 								/>
 								<Card
@@ -110,12 +110,12 @@ export default function Testimonial() {
 								/>
 								<Card
 									image={person5}
-									name="Mariana Fernandez"
+									name="Guilherme Fernandez"
 									position="Lawyer"
 								/>
 								<Card
 									image={person6}
-									name="John Smith"
+									name="Kabir Kapoor"
 									position="Marketing Manager"
 								/>
 							</Carousel>

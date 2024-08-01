@@ -77,18 +77,22 @@ const Services = () => {
 					</div>
 
 					{/* services cards */}
-					<div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 px-24">
+					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-4 md:px-6 lg:px-8">
 						{skillsData.map((skill) => (
 							<div
 								key={skill.name}
 								data-aos="fade-up"
 								data-aos-delay={skill.aosDelay}
-								className="card bg-white dark:bg-gray-800 shadow-md rounded-lg p-6 hover:shadow-lg transition duration-300 ease-in-out"
-								style={{ height: "250px", maxWidth: "400px" }}
+								className="card bg-white dark:bg-gray-800 shadow-md rounded-lg p-4 sm:p-6 hover:shadow-lg transition duration-300 ease-in-out"
+								style={{ height: "auto", maxWidth: "100%" }}
 							>
-								<div className="py-4 mx-3">{skill.icon}</div>
-								<h1 className="text-lg font-semibold">{skill.name}</h1>
-								<p className="text-gray-600 dark:text-gray-400">
+								<div className="flex justify-center items-center py-2 mx-auto">
+									{skill.icon}
+								</div>
+								<h1 className="text-base sm:text-lg font-semibold text-center mt-2">
+									{skill.name}
+								</h1>
+								<p className="text-gray-600 dark:text-gray-400 text-sm text-center mt-1">
 									{skill.description}
 								</p>
 							</div>
