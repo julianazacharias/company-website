@@ -7,8 +7,8 @@ const FooterLinks = [
 		link: "/#about",
 	},
 	{
-		title: "Features",
-		link: "/#features",
+		title: "Mission",
+		link: "/#mission",
 	},
 	{
 		title: "Works",
